@@ -15,4 +15,15 @@ elif player_1=="R" and player_2=="P":
   print("Paper covers Rock, player2 wins!")
 elif player_1=="R" and player_2=="S":
   print("Rock smashes Scissors, player1 wins!")
-  
+elif player_1=="P" and player_2=="P":
+  print("Paper and Paper, it's a draw!")
+elif player_2=="P" and player_2=="R":
+  print("Paper covers Rock, player2 wins!")
+elif player_1=="P" and player_2=="S":
+  print("Scissors cuts Paper, player2 wins!")
+elif player_1=="S" and player_2=="S":
+  print("Scissors and Scissors, it's a draw")
+elif player_1=="S" and player_2=="R":
+  print("Rock smashes Scissors, player2 wins!")
+elif player_1=="S" and player_2=="P":
+  print("Scissors cuts Paper, player1 wins")
